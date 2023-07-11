@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(225, 235, 237);
+}
+
+.card-body {
+    background-color: rgb(198, 203, 237);
+    border-radius: 10px;
+    height: 150px;
+    position: relative;
+
+}
+
+input:focus {
+    box-shadow: none !important;
+}
+
+button:focus {
+    box-shadow: none !important;
+
+}
+
+.formdiv {
+    border-radius: 10px;
+    background: rgb(21, 0, 36);
+    background: linear-gradient(90deg, rgba(21, 0, 36, 1) 0%, rgba(8, 36, 240, 0.9697128851540616) 0%, rgba(104, 68, 222, 1) 67%, rgba(174, 164, 222, 1) 100%, rgba(226, 43, 22, 1) 100%, rgba(42, 51, 202, 1) 100%, rgba(233, 43, 15, 1) 100%, rgba(213, 221, 27, 0.8772759103641457) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.statusele {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.doneInput {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+
+}
+
+.form-label {
+    color: white;
+    font-weight: 600;
+}
